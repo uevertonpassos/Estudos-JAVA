@@ -1,0 +1,18 @@
+package DesafioVarEConst;
+
+public class DesafioVarEConst {
+	public static void main(String[] args) {
+		// ( °F - 32) x 5/9 = °C
+		
+		double f = 90;
+		final double ajuste = 32;
+		final double divisao = 5/9;
+		double resultado = (f - ajuste) * divisao;
+		double c = resultado;
+		
+		
+		System.out.println("resultado: " + c);
+		
+	}
+
+}

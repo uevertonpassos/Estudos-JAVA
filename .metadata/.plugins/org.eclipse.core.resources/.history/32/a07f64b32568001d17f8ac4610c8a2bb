@@ -1,0 +1,22 @@
+package exercicios;
+
+public class HelloWorld {
+	
+	
+	// this is a one line comment
+	public static void main(String[] args) {
+		System.out.println("Hello, World!");
+		
+	/*
+	 * this is a text comment
+	 * 
+	 * line 1
+	 * line 2
+	 * line 3
+	 * 
+	 */
+		
+	}
+
+}
+
